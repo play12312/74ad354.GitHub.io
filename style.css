@@ -1,0 +1,59 @@
+body{background-color: #1a1717;font-family: "Helvetica Neue", "Arial", sans-serif;}
+a{text-decoration:none;}
+		.tongyong{}
+		.zhengti{margin: 70px}
+		.juzhong{text-align:center}
+		.juzuo{text-align: left;color:#f4e4c0;font-size: 4rem}
+		.dierhang{color:#f4e4c0;font-size:2.8rem;Text-indent:2em;padding: 2rem 0 3rem}
+		.saomatishi{background-color:#fcbd20;color:#ffffdd;margin: 1.2rem 0 0;padding:5rem 4rem;font-size:3rem;Border-radius:1rem}
+		.erweima{background-color:#fff;Border-radius:1rem}
+		.ewm{margin: 5rem 0 0 ;width: 650px;height: 650px}
+		.true{margin: 10rem 0 2rem ;width: 260px;height: 260px}
+		.truetxt{color:#000000}
+		.truetxt p.jinchang{font-size:5em;margin:0}
+		.truetxt p.riqi{font-size:4em;margin:0 0 2em}
+		.zise{color:#96b0a5}
+		.footsty{font-size: 2rem;padding:2rem}
+		.shuaxinerweima{color:#686868;font-size:2rem}
+		.yishengxiao{color:#2bd56b;padding:5rem 2rem 0;font-size:4.5rem}
+		.shijian{color:#1dc25a;padding:0 2rem 2rem ;font-size: 3rem}
+		.yuan1{float:left;margin:-1.5rem 0 0 -1.5rem}
+		.yuan2{float:right;margin:-1.5rem -1.5rem 0 0}
+		.yuant{width:3em;height:3em;background:#1a1717;Border-radius:1.5rem}
+		
+		
+		
+		
+
+.word_breath {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        /* Safari and Chrome鎾斁鍣ㄥ啓娉� */
+        -webkit-animation-name: breath;/* 鍔ㄧ敾鍚嶇О */
+        -webkit-animation-duration: 1.5s;/* 鍔ㄧ敾鏃堕暱3绉� */
+        -webkit-animation-timing-function: ease-in-out;/* 鍔ㄧ敾閫熷害鏇茬嚎锛氫互浣庨€熷紑濮嬪拰缁撴潫 */
+        -webkit-animation-iteration-count: infinite;/* 鎾斁娆℃暟锛氭棤闄� */
+        
+    }
+ 
+@keyframes breath {
+        /* 鍔ㄧ敾寮€濮嬫椂鐨勪笉閫忔槑搴� */
+        from {
+            opacity: 0;
+        }
+ 
+        /* 鍔ㄧ敾50% 鏃剁殑涓嶉€忔槑搴� */
+        50% {
+            opacity: 1;
+        }
+ 
+        /* 鍔ㄧ敾缁撴潫鏃剁殑涓嶉€忔槑搴� */
+        to {
+            opacity: 0;
+        }
+ 
+        
+    }
+		
